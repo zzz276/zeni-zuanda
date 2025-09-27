@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zeni-zuanda/static/css/main.f855e6bc.css",
+    "main.js": "/zeni-zuanda/static/js/main.a318c624.js",
+    "static/js/453.438d9e50.chunk.js": "/zeni-zuanda/static/js/453.438d9e50.chunk.js",
+    "static/media/logo.svg": "/zeni-zuanda/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/zeni-zuanda/index.html",
+    "main.f855e6bc.css.map": "/zeni-zuanda/static/css/main.f855e6bc.css.map",
+    "main.a318c624.js.map": "/zeni-zuanda/static/js/main.a318c624.js.map",
+    "453.438d9e50.chunk.js.map": "/zeni-zuanda/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.a318c624.js"
+  ]
+}
