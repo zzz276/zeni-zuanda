@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Content />
-      <Footer name={"Zeni"}/>
+      <Footer name={"Zeni Zuanda"}/>
     </div>
   );
 }
