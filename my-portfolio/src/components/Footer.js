@@ -2,8 +2,8 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function Footer({name}) {
   return (
-    <footer className='bg-primary text-white' style={{ paddingBottom: "10px" }}>
-        <Navbar data-bs-theme="dark">
+    <footer className='bg-primary text-white' style={{ paddingBottom: '10px' }}>
+        <Navbar data-bs-theme='dark'>
           <Container fluid className='justify-content-center'>
             <Nav>
               <Nav.Item>
