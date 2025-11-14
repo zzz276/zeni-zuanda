@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/zeni-zuanda/static/css/main.dfb03293.css",
-    "main.js": "/zeni-zuanda/static/js/main.66270a7b.js",
+    "main.css": "/zeni-zuanda/static/css/main.b9a7ef6a.css",
+    "main.js": "/zeni-zuanda/static/js/main.91758940.js",
     "static/js/453.438d9e50.chunk.js": "/zeni-zuanda/static/js/453.438d9e50.chunk.js",
+    "static/media/stellar-network.svg": "/zeni-zuanda/static/media/stellar-network.b47d7e1bf01c2c90afab.svg",
+    "static/media/zen-monogram.svg": "/zeni-zuanda/static/media/zen-monogram.468a7ceba340b95985143738312baacc.svg",
     "index.html": "/zeni-zuanda/index.html",
-    "main.dfb03293.css.map": "/zeni-zuanda/static/css/main.dfb03293.css.map",
-    "main.66270a7b.js.map": "/zeni-zuanda/static/js/main.66270a7b.js.map",
+    "main.b9a7ef6a.css.map": "/zeni-zuanda/static/css/main.b9a7ef6a.css.map",
+    "main.91758940.js.map": "/zeni-zuanda/static/js/main.91758940.js.map",
     "453.438d9e50.chunk.js.map": "/zeni-zuanda/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfb03293.css",
-    "static/js/main.66270a7b.js"
+    "static/css/main.b9a7ef6a.css",
+    "static/js/main.91758940.js"
   ]
 }

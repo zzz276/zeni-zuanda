@@ -1,0 +1,61 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#01040c"/>
+  <g opacity="0.9">
+    <circle cx="250" cy="140" r="2.5" fill="#8A2EFF"/>
+    <circle cx="420" cy="220" r="3" fill="#30F2FF"/>
+    <circle cx="700" cy="130" r="2.2" fill="#FFFFFF"/>
+    <circle cx="1080" cy="200" r="3.5" fill="#30F2FF"/>
+    <circle cx="1320" cy="120" r="2.6" fill="#8A2EFF"/>
+    <circle cx="1480" cy="320" r="2" fill="#FFFFFF"/>
+    <circle cx="1180" cy="420" r="3" fill="#30F2FF"/>
+    <circle cx="900" cy="360" r="2.8" fill="#8A2EFF"/>
+    <circle cx="640" cy="420" r="2.3" fill="#FFFFFF"/>
+    <circle cx="380" cy="420" r="2.5" fill="#30F2FF"/>
+    <circle cx="180" cy="360" r="2" fill="#FFFFFF"/>
+    <circle cx="220" cy="540" r="3" fill="#8A2EFF"/>
+    <circle cx="460" cy="620" r="2.2" fill="#30F2FF"/>
+    <circle cx="760" cy="540" r="2.5" fill="#FFFFFF"/>
+    <circle cx="1030" cy="640" r="2.7" fill="#8A2EFF"/>
+    <circle cx="1320" cy="580" r="2.4" fill="#30F2FF"/>
+    <circle cx="1420" cy="780" r="2.1" fill="#FFFFFF"/>
+    <circle cx="1100" cy="800" r="2.8" fill="#8A2EFF"/>
+    <circle cx="780" cy="760" r="2.4" fill="#30F2FF"/>
+    <circle cx="500" cy="780" r="2" fill="#FFFFFF"/>
+    <circle cx="260" cy="780" r="2.3" fill="#8A2EFF"/>
+  </g>
+  <g stroke="#2DE1F2" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+    <path d="M250 140L420 220L700 130L900 360L1180 420L1320 120"/>
+    <path d="M180 360L380 420L640 420L760 540L1030 640L1320 580L1480 320"/>
+    <path d="M220 540L460 620L760 540L900 760L1100 800L1320 580"/>
+    <path d="M260 780L500 780L780 760L1030 640L1180 420"/>
+    <path d="M420 220L380 420L460 620L500 780"/>
+    <path d="M700 130L640 420L760 540L780 760"/>
+    <path d="M1080 200L1180 420L1030 640L1100 800"/>
+    <path d="M1320 120L1320 580L1420 780"/>
+  </g>
+  <g opacity="0.25">
+    <circle cx="200" cy="90" r="60" fill="url(#glow)"/>
+    <circle cx="980" cy="120" r="80" fill="url(#glow2)"/>
+    <circle cx="1340" cy="400" r="100" fill="url(#glow3)"/>
+    <circle cx="640" cy="700" r="90" fill="url(#glow4)"/>
+  </g>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 90) rotate(90) scale(60)">
+      <stop stop-color="#30F2FF" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#30F2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 120) rotate(90) scale(80)">
+      <stop stop-color="#8A2EFF" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#8A2EFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1340 400) rotate(90) scale(100)">
+      <stop stop-color="#30F2FF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#30F2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 700) rotate(90) scale(90)">
+      <stop stop-color="#8A2EFF" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#8A2EFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
+
