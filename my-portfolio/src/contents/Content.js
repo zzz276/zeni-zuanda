@@ -4,7 +4,7 @@ import Projects from './Projects';
 
 function Content() {
   return (
-    <Container fluid style={{ padding: '10%' }}>
+    <Container fluid className='cs-content'>
       <About />
       <Projects />
     </Container>

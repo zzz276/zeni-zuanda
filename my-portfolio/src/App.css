@@ -1,38 +1,124 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  text-align: left;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.cs-header,
+.cs-footer {
+  background: rgba(3, 7, 18, 0.75);
+  border-bottom: 1px solid var(--cs-border);
+  backdrop-filter: blur(18px);
+}
+
+.cs-footer {
+  border-top: 1px solid var(--cs-border);
+  border-bottom: none;
+}
+
+.cs-brand {
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.15rem;
+  font-size: 1.1rem;
+  color: var(--cs-accent) !important;
+}
+
+.cs-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(3, 10, 22, 0.6);
+}
+
+.cs-tagline {
+  color: var(--cs-muted);
+  font-size: 0.9rem;
+}
+
+.cs-content {
+  padding: 5rem 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.cs-panel {
+  background: var(--cs-panel);
+  border: 1px solid var(--cs-border);
+  border-radius: 18px;
+  padding: 2.5rem;
+  box-shadow: 0 25px 60px rgba(3, 10, 22, 0.65);
+  position: relative;
+  overflow: hidden;
+}
+
+.cs-panel::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(125deg, rgba(48, 242, 255, 0.12), transparent 40%);
+  pointer-events: none;
+}
+
+.cs-panel h1,
+.cs-panel h2 {
+  margin-top: 0;
+  color: var(--cs-accent);
+  font-family: 'Space Mono', monospace;
+}
+
+.cs-project-grid {
+  margin-top: 2rem;
+}
+
+.cs-card {
+  background: rgba(3, 8, 20, 0.9);
+  border: 1px solid var(--cs-border);
+  border-radius: 16px;
+  height: 100%;
+  color: var(--cs-text);
+}
+
+.cs-card .card-title {
+  font-family: 'Space Mono', monospace;
+  color: var(--cs-accent);
+}
+
+.cs-card .card-subtitle {
+  color: var(--cs-muted);
+  margin-bottom: 0.75rem;
+}
+
+.cs-card .card-link {
+  color: var(--cs-accent);
+  font-family: 'Space Mono', monospace;
+}
+
+.cs-pill {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 0.4rem;
+  padding: 0.25rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(48, 242, 255, 0.15);
+  border: 1px solid rgba(48, 242, 255, 0.35);
+  font-size: 0.85rem;
+  font-family: 'Space Mono', monospace;
 }
 
-.App-link {
-  color: #61dafb;
+.cs-bio {
+  line-height: 1.8;
+  color: var(--cs-muted);
+  font-size: 1.05rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cs-links .nav-link {
+  color: var(--cs-text) !important;
+  font-family: 'Space Mono', monospace;
+}
+
+.cs-links .nav-link:hover {
+  color: var(--cs-accent) !important;
 }

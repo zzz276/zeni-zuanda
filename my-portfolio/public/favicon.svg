@@ -1,0 +1,23 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="96" height="96" rx="20" fill="url(#bg)" />
+  <g filter="url(#glow)">
+    <path d="M26 30L16 48L26 66" stroke="#2DE1F2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g filter="url(#glow)">
+    <path d="M70 30L80 48L70 66" stroke="#8A2EFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <path d="M34 32H58L42 64H66" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M58 32H34L50 64H26" stroke="#2DE1F2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" />
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040B1F" />
+      <stop offset="1" stop-color="#080322" />
+    </linearGradient>
+    <filter id="glow" x="8" y="22" width="80" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.9 0 0 0 0 1 0 0 0 0.6 0" />
+      <feBlend in2="SourceGraphic" result="glow" />
+    </filter>
+  </defs>
+</svg>
+
