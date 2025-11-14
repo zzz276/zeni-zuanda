@@ -6,8 +6,10 @@ function Cards({ project }) {
       <Card.Body>
         <Card.Title >{ project.title }</Card.Title>
         <Card.Subtitle>{ project.language }</Card.Subtitle>
-        <Card.Link href={ project.link }>Link</Card.Link>
       </Card.Body>
+      <Card.Footer>
+        <Card.Link href={ project.link }>Link</Card.Link>
+      </Card.Footer>
     </Card>
   );
 }
