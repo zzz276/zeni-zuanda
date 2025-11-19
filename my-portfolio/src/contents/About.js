@@ -3,9 +3,9 @@ function About() {
     <section className='cs-panel'>
       <h1>About Me</h1>
       <p className='cs-bio'>
-        I am currently studying Mobile Application & Technology at the School of Computer Science, BINUS University.
+        I'm currently studying Mobile Application and Technology at the School of Computer Science, BINUS University.
         My favorite problems live where design systems, real-time data, and human-centered experiences intersect.
-        Whether I am prototyping Flutter widgets, shipping Kotlin micro-apps, or wiring sensors to microcontrollers,
+        Whether I'm prototyping Flutter widgets, shipping Kotlin micro-apps, or wiring sensors to microcontrollers,
         I write code that feels like a conversation between logic and art.
       </p>
       <p className='cs-bio'>
